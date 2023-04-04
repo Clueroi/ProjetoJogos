@@ -1,0 +1,1025 @@
+/*Index.html. este é para a primeira página do site*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Barra de navegação*/
+.navbar{
+  background-color: rgb(4, 4, 17);
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  gap:80%;
+  position: fixed;
+  z-index: 9900;
+	width: 100%;
+	top: 0;
+  overflow: x;
+}
+
+.btn-h{
+  border: 0px;
+  padding: 40px;
+  background-image:url(./../../imagens/umbrela-removebg-preview.png);
+  background-color:rgb(7, 7, 26); ;
+  width: 80px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+nav{
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: absolute;
+}
+
+input[type="checkbox"]:checked ~ nav{
+  transform: translateX(350px);
+}
+
+.abt{
+  background-color: black;
+  display: block;
+  padding: 20px 5px;
+  color: #fff;
+}
+
+.abt:hover{
+  background-color: rgb(4, 4, 17) ;
+  color: white;
+}
+
+label{
+  padding: 15px;
+  z-index: 1;
+}
+
+/*Parte 1*/
+
+.P1{
+  background-image: url(../../imagens/ashre4.jpg);
+  background-size:cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height:120vh;
+}
+
+.cng{
+  display: flex;
+}
+
+.ttp1{
+  color:rgb(190, 221, 248);
+  padding:30px;
+  font-size:50px;
+}
+
+.spp1{
+  font-family: Bloodlust;
+  color:rgb(90, 10, 10);
+  padding-left:200px;
+  padding-right: 60px ;
+  padding-top:300px;
+  font-size:85px;
+}
+
+@font-face {
+  font-family: 'Bloodlust';
+  src: url(../../Documentos/fontes/bloodlust.ttf);
+}
+
+/*Imagens do topo*/
+
+.img1{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(182, 182, 182);
+}
+
+.txtim{
+  padding: 40px;
+  display: flex;
+  flex-direction:column;
+  font-size:85px;
+}
+
+.btim{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+.btim:hover{
+  background-color: rgb(4, 4, 17);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.spig{
+  font-size: 20px;
+}
+
+.bg1{
+  height: 83.6vh;
+}
+
+/*Parte 2*/
+
+.P2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+  min-height: 20vh;
+  background-color: aquamarine;
+}
+
+.imagem1{
+  width: 50%;
+  height: 50%;
+}
+
+.a{
+  width: 94vh;
+  height: 70vh;
+}
+
+.texto1{
+  width: 40%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;  
+  flex-wrap: nowrap;
+  min-height: 20vh;
+}
+
+.b{
+  padding:40px 10px;
+  margin:10px;
+  width: 100%;
+  font-size:30px;
+}
+
+.btp2{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btp2:hover{
+  background-color: rgb(4, 4, 17);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.sptxt{
+  padding: 20px;
+  font-size:16px;
+}
+
+.imagem2{
+  align-items: center;
+  width: 40%;
+  height: 50vh;
+}
+
+.c{
+  width: 100%;
+  height: 70vh;
+}
+
+/*Services*/
+
+.services{
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.TopBlock{
+  padding: 30px 40px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.BotBlock{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn-s{
+  padding: 15px 20px;
+  border-radius:35px;
+}
+
+.btn-s:hover{
+  background-color: rgb(4, 4, 17);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.alan:hover{
+  
+  transition: 1s ease-in-out;
+}
+
+/*Anuncios*/
+
+.ad{
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+  background-color: white;
+  justify-content:space-between;
+}
+
+.anuncio-1{
+  width: 50%;
+  margin:30px;
+  transition: 1,5s ease-in;
+  opacity: 0,1;
+}
+
+.img1ad{
+  width: 100%;
+  height: 95.5vh;
+}
+
+.anuncios-234{
+  width: 50%;
+}
+
+.img2ad, .img3ad, .img4ad{
+  margin-top: 30px;
+}
+
+.btnad{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btad{
+  padding: 20px;
+  border-radius:30px;
+}
+
+.btad:hover{
+  background-color: rgb(4, 4, 17);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.anuncio-1:hover{
+  filter: grayscale(100%);
+  transition: 1s ease-in-out;
+  opacity: 1;
+}
+
+.anuncio-2:hover{
+  filter: grayscale(100%);
+  transition: 1s ease-in-out;
+}
+
+.anuncio-3:hover{
+  filter: grayscale(100%);
+  transition: 10,5s ease-in-out;
+}
+
+.anuncio-4:hover{
+  filter: grayscale(100%);
+  transition: 1s ease-in-out;
+}
+
+/* us */
+
+.us{
+  background-image: linear-gradient(to bottom,white, rgb(4, 4, 17), rgb(4, 4, 17) );
+}
+
+.container {
+  position: relative;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+/* contacts */
+
+.contact{
+  height: 37vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to bottom, rgb(4, 4, 17), rgb(2, 2, 37) );
+}
+
+.hc1{
+  margin: 20px;
+  width: 50%;
+  color: white;
+}
+
+.hc2{
+  margin: 20px;
+  width: 50%;
+  color: white;
+}
+
+.h2hc{
+  font-size:20px;
+}
+
+.h1hc{
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+.bth2{
+  margin: 20px;
+  padding: 20px 120px;
+  border-radius: 25px;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.bth2:hover{
+  background-color: black;
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+.foot{
+  background-color:rgb(4, 4, 17);
+  height: 15.4vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hft{
+  font-size:20px;
+}
+
+/*Este é para quem somos*/
+
+/*Topo*/
+
+.quem{
+  background-image: url(../..//imagens/Resident-Evil-2_2018_12-01-18_002.jpg);
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:130vh;
+}
+
+.spq{
+  font-family: Bloodlust;
+  color:rgb(90, 10, 10);
+  font-size:85px;
+}
+
+.textq{
+  color: white;
+  font-size:40px;
+}
+
+/*Imagem e texto*/
+
+.qimg{
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 8, 8);
+}
+
+.txtq{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  font-size:85px;
+}
+
+.sppq{
+  font-size: 20px;
+}
+
+.imgq{
+  width: 50%;
+}
+
+.bio1{
+  width: 100%;
+  height: 100%;
+}
+
+.btq{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+/*Culture*/
+
+.culture{
+  background-image: url(../../Documentos/imagens/trescu.jpg);
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  text-shadow: 2px 2px black;
+}
+
+.lt{
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:85px;
+}
+
+.hcult{
+  font-size:50px;
+  color: white;
+}
+
+.rt{
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  font-size:20px;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
+.h2rt{
+  font-size:40px;
+  margin-top: 40px;
+}
+
+/*Partners*/
+
+.partners{
+  min-height: 100vh;
+}
+
+.TopPartners{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.BotPartners{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.txtp{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  margin: 50px;
+}
+
+.botoclinic{
+  background-image: url(../../Documentos/imagens/boto.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.nb{
+  background-image: url(../../Documentos/imagens/nb.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.coral{
+  background-image: url(../../Documentos/imagens/coral.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+.renault{
+  background-image: url(../../Documentos/imagens/reno.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+.apm{
+  background-image: url(../../Documentos/imagens/apm.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+.mr{
+  background-image: url(../../Documentos/imagens/mr.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+.shop{
+  background-image: url(../../Documentos/imagens/shop.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+.c3{
+  background-image: url(../../Documentos/imagens/c3.png);
+  background-size:200px;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 300px;
+}
+
+/*Serviços aba*/
+
+.servicos{
+  background-image: url(../../Documentos/imagens/re3.jpeg);
+  background-size:cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  min-height:100vh;
+}
+.servico{
+  display: flex;
+  margin: 60px;
+}
+
+.txs{
+  font-size: 80px;
+  color: white;
+}
+
+.sps{
+  margin-left: 20px;
+  font-family: Bloodlust;
+  color:rgb(90, 10, 10);
+  font-size:85px;
+}
+
+.serimg{
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 8, 8);
+}
+
+.txtser{
+  padding: 20px;
+  width: 47%;
+  display: flex;
+  flex-direction:column;
+  font-size:85px;
+}
+
+.logimg{
+  display: flex;
+  flex-direction: row;
+}
+
+.sertxt{
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 8, 8);
+}
+
+/*Institucional*/
+
+.pins{
+  background-image: url(../../Documentos/imagens/leash.jpg);
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 50px;
+}
+
+.hins{
+  font-size:50px;
+  color: #fff;
+}
+
+.hi1{
+  font-size: 150px;
+  color: #fff;
+  font-family: Bloodlust;
+}
+
+.hi2{
+  font-size: 50px;
+  background-color: white;
+  color: black;
+}
+
+.pins2{
+  background-image: url(../../Documentos/imagens/salv.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.hins2{
+  background-color: black;
+  font-size:50px;
+  color: #fff;
+}
+
+.pins3{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pimgM{
+  width: 50%;
+  margin-top: 30px;
+}
+
+.pimg{
+  display: flex;
+  justify-content: center;
+}
+
+.pia{
+  width: 150px;
+  height: 150px;
+  margin: 0px 50px;
+}
+
+.pitxt{
+  width: 50%;
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixtxt{
+  padding: 40px;
+}
+
+.pih1{
+  color: violet;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.spin{
+  color: #fff;
+}
+
+.h2pi{
+  font-size: 20px;
+  color: white;
+  margin-bottom:20px;
+}
+
+/*Carrossel Insituição*/
+
+.carrossel{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+}
+
+.slide img{
+  width: 800px;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border:2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background-color: white;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+#radio4:checked~.first{
+  margin-left: -75%;
+}
+
+.navigation-auto{
+  border: 2px solid lightblue;
+  padding: 5px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inst{
+  background-image: url(../../Documentos/imagens/re4.jpg);
+  background-size:cover;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height:120vh;
+}
+
+.fn{
+  background-image: url(../../Documentos/imagens/ashre4.jpg);
+  background-size:cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height:120vh;
+}
+
+.tfn{
+  color:rgb(190, 221, 248);
+  padding:30px;
+  font-size:50px;
+}
+
+.ag{
+  background-image: url(../../Documentos/imagens/bgre.jfif);
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:120vh;
+}
+
+/*Contato*/
+
+.cttimg{
+  background-image: url(../../Documentos/imagens/crpie.jpg);
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cttxt{
+  color: white;
+  font-size:80px
+}
+
+.contato-titulo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size:50px;
+}
+
+.contato-lados{
+  width: 100%;
+  display: flex;
+  height: 70vh;
+}
+
+.contato-esquerdo{
+  padding: 30px;
+  width: 50%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.ctt-tit{
+  font-size:35px;
+}
+
+.contato-esquerdo-h1{
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.redes{
+  margin-top: 40px;
+}
+
+.h1rede{
+  font-size: 35px;
+}
+
+.icrede{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.contato-direito{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:start;
+}
+
+.align{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.alinhamento{
+  display: flex;
+  flex-direction: column;
+  padding-right:20px;
+}
+
+#nome{
+  padding: 14px 40px;
+}
+
+#empresa{
+  padding: 14px 40px;
+}
+
+#celular{
+  padding: 14px 40px;
+}
+
+#email{
+  padding: 14px 40px;
+}
+
+#msg{
+  padding: 25px 181px;
+}
